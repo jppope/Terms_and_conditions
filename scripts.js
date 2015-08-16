@@ -1,14 +1,8 @@
 _.each(clauses, 
 	function(allClauses){	
 		_.each(allClauses, function(result){
-			//console.dir(result);
-			
-			
-			
-			
-			_.each(result, function(data){
-				
-				
+			//console.dir(result);		
+			_.each(result, function(data){		
 	if(data.intro){$("#terms").append("<div class=\"container\">" + data.intro + "</div>");}
 	else if(data.personalInformation){$("#terms").append("<div class=\"container\">" + data.personalInformation + "</div>");}
 	else if(data.ipAddress){$("#terms").append("<div class=\"container\">" + data.ipAddress + "</div>");}
@@ -37,14 +31,8 @@ _.each(clauses,
 	else if(data.ambigious){$("#terms").append("<div class=\"container\">" + data.ambigious + "</div>");}
 	else if(data.currentVersion){$("#terms").append("<div class=\"container\">" + data.currentVersion + "</div>");}
 	else if(data.rightToUpdate){$("#terms").append("<div class=\"container\">" + data.rightToUpdate + "</div>");}
-	else{console.error("error");}
-				
-				
-			})
-			
-			
-			
-			
+	else{console.error("error");}					
+			})		
 		})		
 	}
 );

@@ -1,7 +1,7 @@
 # Terms_and_conditions
 Terms and Conditions, Privacy Policy, other Legal documents for a website
 
-#	!Disclaimer: This was not written by a legal professional. It is a combination of open souce clauses that exist around the internet... If you are going to use it for your website, app, project, or anything else PLEASE PLEASE get a lawyer to review it. Hell get them to commit pull requests.
+!Disclaimer: This was not written by a legal professional. It is a combination of open souce clauses that exist around the internet... If you are going to use it for your website, app, project, or anything else PLEASE PLEASE get a lawyer to review it. Hell get them to commit pull requests.
 
 
 ## Synopsis
